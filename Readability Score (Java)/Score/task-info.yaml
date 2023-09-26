@@ -221,6 +221,12 @@ files:
           }
       }
     learner_created: false
-feedback_link: https://hyperskill.org/projects/39/stages/207/implement#comment
-status: Unchecked
+  - name: src/readability/AgesTable.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/5264#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 26 Sep 2023 14:29:33 UTC"
 record: -1
