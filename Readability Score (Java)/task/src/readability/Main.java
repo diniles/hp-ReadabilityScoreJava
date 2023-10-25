@@ -4,9 +4,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-import static readability.AgesTable.getGroupByScore;
-
-
 public class Main {
 
     private static final double DOUBLE0_5 = 0.5;
