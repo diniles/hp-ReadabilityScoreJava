@@ -22,7 +22,7 @@ public enum AgesTable {
     private final String group;
     private final int score;
 
-    private final String postfix = "year-olds";
+//    private final String postfix = "year-olds";
 
     AgesTable(String group, int score) {
         this.group = group;
@@ -37,7 +37,8 @@ public enum AgesTable {
         int scoreCeilInt = (int) Math.ceil(score);
         return Arrays.stream(values()).filter(e -> e.score == scoreCeilInt)
                 .findFirst()
-                .map(e -> String.join("\s", e.getGroup(), e.postfix))
+//                .map(e -> String.join("\s", e.getGroup(), e.postfix))
+                .map(e -> String.join("\s", e.getGroup().substring(3)))
                 .orElse("<< not specified >>");
     }
 }

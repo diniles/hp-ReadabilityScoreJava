@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/22933/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Tue, 26 Sep 2023 11:21:11 UTC"
+update_date: "Wed, 25 Oct 2023 05:44:37 UTC"
 stages:
   - id: 205
     step: 5262
@@ -16,7 +16,7 @@ stages:
     is_completed: true
   - id: 208
     step: 5265
-    is_completed: false
+    is_completed: true
 topics:
   0:
     - title: "Write, compile, and run"
@@ -84,6 +84,8 @@ topics:
   1:
     - title: Switch statement
       theory_id: 3504
+    - title: Introduction to OOP
+      theory_id: 3614
     - title: Declaring a method
       theory_id: 10982
     - title: The main method
@@ -94,8 +96,6 @@ topics:
       theory_id: 3594
     - title: Iterating over arrays
       theory_id: 3602
-    - title: Introduction to OOP
-      theory_id: 3614
     - title: Processing strings
       theory_id: 3551
     - title: Regexps in Java
@@ -123,12 +123,12 @@ topics:
   2:
     - title: Overloading
       theory_id: 3525
+    - title: Package
+      theory_id: 3621
     - title: Errors in programs
       theory_id: 3536
     - title: What is an exception
       theory_id: 3497
-    - title: Package
-      theory_id: 3621
     - title: Hierarchy of exceptions
       theory_id: 3570
     - title: Exception handling
